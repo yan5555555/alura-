@@ -1,11 +1,35 @@
 :root{
-    --branco-principal: #FFFFFF;
---cinca-secundario: #C0C0C0;
+--branco-principal:#ffffff;
+--cinza-secundario:#c0c0c0;
 --botao-azul:#167BF7;
---cor-de-fundo:#00030C;
+--cor-de-fundo:#00030c;
 }
 body{
-    background-color: var(--cor-de-fundo);
+    background-color:var(--cor-de-fundo);
     color:var(--branco-principal);
+   
 }
-    
+.principal{
+    background-image: url('Background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container{
+height: 100vh;
+}
+.container{
+height: 100vh;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.coontainer__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+.botao__secundario{
+background-color: turquoise;
+border: 2px solid var(--branco-principal);
+}
